@@ -1,0 +1,31 @@
+*{
+	margin: 0px;
+	font-family: 'Oxygen', sans-serif;
+	box-sizing: border-box;
+}
+
+.menu-item{
+	background-color:lightblue;
+	border: 1px solid black;
+	color:black;
+	height: 350px;
+	margin:5px;
+	overflow: hidden;
+}
+
+.menu-item:hover{
+	box-shadow: 0px 1px 2px black;
+}
+.menu-item p{
+	text-indent: 10px;
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	/* Home Page */
+	section div:nth-child(3){
+		width: 100%;
+	}
+	/* End Home Page */
+  }
